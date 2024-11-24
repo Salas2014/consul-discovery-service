@@ -1,5 +1,8 @@
 spring:
   application:
     name: cat-service
+  sql:
+    init:
+      mode: never
 server:
   port: 0
