@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: 'consul:'
   application:
     name: salas-service
 
