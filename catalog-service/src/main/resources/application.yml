@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cat-service
+
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        instance-id: cat-service-i1
+
+server:
+  port: 0

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: salas-service
+
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        instance-id: salas-service-i1
